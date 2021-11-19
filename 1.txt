@@ -1,0 +1,1000 @@
+ 1082  cd /opt/
+ 1083  ls
+ 1084  du -sh / |grep G
+ 1085  du -sh containerd/ |grep G
+ 1086  du -sh containerd/ |grep M
+ 1087  du -sh containerd/
+ 1088  cd ..
+ 1089  ls
+ 1090  du -sh snap/
+ 1091  cd /var/
+ 1092  du -sh * log/
+ 1093  du -sh *
+ 1094  du -sh log/
+ 1095  du -sh log/installer/
+ 1096  du -sh log/dpkg.log
+ 1097  clear
+ 1098  cd log/
+ 1099  du -sh *
+ 1100  cd ..
+ 1101  ls
+ 1102  cd var
+ 1103  du -sh *
+ 1104  cd /tmp/
+ 1105  du -sh *
+ 1106  clear
+ 1107  sudo apt-get install youtube-dl
+ 1108  sudo youtube-dl -U
+ 1109  nbsp;youtube-dl https://www.youtube.com/watch?v=UV3C9pgWgRU&ab_channel=FatihArslan
+ 1110  youtube-dl https://www.youtube.com/watch?v=UV3C9pgWgRU&ab_channel=FatihArslan
+ 1111  ls
+ 1112  du -sh *
+ 1113  wget https://www.youtube.com/watch?v=UV3C9pgWgRU&ab_channel=FatihArslan
+ 1114  ls
+ 1115  du -sh *
+ 1116  du -sh lists/
+ 1117  cd lists/
+ 1118  du -sh 0
+ 1119  du -sh *
+ 1120  du -sh * |grep G
+ 1121  du -sh * |grep M
+ 1122  touch name of the file is para
+ 1123  rm name of the file is para 
+ 1124  vi toucs
+ 1125  fgrep -c "usin.g" para
+ 1126  fgrep -c "usin.g" toucs 
+ 1127  fgrep -h "usin.g" toucs 
+ 1128  mv toucs para
+ 1129  clear
+ 1130  cat para
+ 1131  fgrep -i "geeks*forgeeks" para
+ 1132  fgrep -l "geeks*forgeeks" para para2
+ 1133  fgrep -l "geeks*forgeeks" para
+ 1134  fgrep -l "geeks*forgeeks" *
+ 1135  fgrep -n "learni\ng" para
+ 1136  fgrep -v "@re" para
+ 1137  fgrep -x "@re" para
+ 1138  fgrep -x "Geeks*forgeeks is best for learni\ng." para
+ 1139  grep -Hrn "best" para
+ 1140  vi state.txt
+ 1141  vi capital.txt
+ 1142  wc state.txt
+ 1143  wc capital.txt
+ 1144  wc state.txt capital.txt
+ 1145  wc -l state.txt
+ 1146  wc -l state.txt capital.txt
+ 1147  vi ads.txt
+ 1148  wc -l state.txt capital.txt ads.txt
+ 1149  clear
+ 1150  wc -w state.txt
+ 1151  wc -w ads.txt
+ 1152  cat state.txt 
+ 1153  wc -c state.txt
+ 1154  wc -c ads.txt
+ 1155  wc -m state.txt
+ 1156  wc -m ads.txt
+ 1157  cat ads.txt 
+ 1158  vi a.txt
+ 1159  wc -m a.txt
+ 1160  vi a.txt
+ 1161  wc -L state.txt
+ 1162  wc -L a.txt 
+ 1163  vi a.txt 
+ 1164  wc -L a.txt 
+ 1165  vi a.txt 
+ 1166  wc -L a.txt 
+ 1167  vi a.txt 
+ 1168  wc -L a.txt state.txt
+ 1169  ls gfg
+ 1170  ls gfg | wc -l
+ 1171  ls | wc -l
+ 1172  ls
+ 1173  ls -al
+ 1174  clear
+ 1175  ls
+ 1176  cd ssl/
+ 1177  ls
+ 1178  ls | wc -l
+ 1179  mkdir dejee
+ 1180  ls
+ 1181  ls | wc -l
+ 1182  cd ..
+ 1183  ls ssl| wc -l
+ 1184  wc -w  state.txt | cut -c1
+ 1185  wc -w  state.txt
+ 1186  wc -w  state.txt | cut -c1
+ 1187  cat state.txt 
+ 1188  nl state.txt
+ 1189  nl -l 1 state.txt 
+ 1190  nl -b a -l 3 geekfile.txt
+ 1191  nl -b a -l 3 state.txt 
+ 1192  nl -i3 state.txt 
+ 1193  nl -v 4 state.txt 
+ 1194  nl -s "..." state.txt 
+ 1195  nl -w2 state.txt 
+ 1196  nl -w4 state.txt 
+ 1197  nl -w5 state.txt 
+ 1198  nl -w7 state.txt 
+ 1199  nl -b pA state.txt 
+ 1200  nl -n ln state.txt 
+ 1201  nl -n rz state.txt 
+ 1202  clear
+ 1203  ls
+ 1204  cat para
+ 1205  clear
+ 1206  cat para
+ 1207  cat para | tr “[a-z]” “[A-Z]”
+ 1208  echo "Welcome To GeeksforGeeks" | tr [:space:] '\t'
+ 1209  vi geekfile
+ 1210  cat geekfile 
+ 1211  tr '{}' '()' newfile.txt
+ 1212  tr '{}' '()' geekfile
+ 1213  tr '{}' '()' geekfile newfile.txt
+ 1214  cat greekfile |tr '{}' '()' geekfile
+ 1215  cat greekfile |tr '{}' '()' newfile.txt
+ 1216  tr '{}' '()' < geekfile 
+ 1217  echo "Welcome To GeeksforGeeks" | tr -d 'w'
+ 1218  echo "Welcome To GeeksforGeeks" | tr -d 'W'
+ 1219  echo "Welcome To GeeksforGeeksWWW" | tr -d 'W'
+ 1220  echo "Welcome To GeeksforwwwGeeksWWW" | tr -d 'W'
+ 1221  echo "Welcome To GeeksforWGeeksWWW" | tr -d 'W'
+ 1222  echo "my ID is 73535" | tr -d [:digit:]
+ 1223  echo "my ID 1 is 73535" | tr -d [:digit:]
+ 1224  echo "my ID is 73535" | tr -cd [:digit:]
+ 1225  man tr
+ 1226  ls
+ 1227  cat geekfile
+ 1228  vi lorem.txt
+ 1229  cat lorem.txt 
+ 1230  history 
+ 1231  cat lorem.txt
+ 1232  cat lorem.txt tr ',' '!!!' < inputfile > outputfile
+ 1233  cat lorem.txt tr ',' '!!!' < lorem.txt > outputfile
+ 1234  tr ',' '!!!' < lorem.txt > outputfile
+ 1235  cat outputfile 
+ 1236  tr '!' '!*!' < lorem.txt > outputfile
+ 1237  cat outputfile 
+ 1238  tr ',' '!*!' < lorem.txt > outputfile2
+ 1239  cat outputfile2
+ 1240  tr ',' 'amkk' < lorem.txt > outputfile2
+ 1241  cat outputfile2
+ 1242  tr [:space:] '\t' < lorem.txt > outputfile2
+ 1243  cat outputfile2
+ 1244  tr -d 'Lorem' < lorem.txt > outputfile2
+ 1245  cat outputfile2
+ 1246  clear
+ 1247  cat lorem.txt 
+ 1248  cat outputfile2
+ 1249  tr -d "Lorem" < lorem.txt > outputfile2
+ 1250  cat outputfile2
+ 1251  vi kt.txt
+ 1252  clear
+ 1253  cat kt.txt 
+ 1254  fmt kt.txt
+ 1255  cat kt.txt 
+ 1256  fmt kt.txt > dv.txt
+ 1257  cat dv.txt 
+ 1258  fmt -w 10 kt.txt
+ 1259  fmt -w 10 dv.txt
+ 1260  cat dv.txt 
+ 1261  fmt -w 4 dv.txt
+ 1262  fmt -w 4 kt.txt 
+ 1263  fmt -w 1 kt.txt 
+ 1264  fmt -w 19 lorem.txt 
+ 1265  fmt -w 10 lorem.txt 
+ 1266  vi lorem2.txt
+ 1267  fmt -w 10 lorem2.txt 
+ 1268  vi lorem2.txt
+ 1269  fmt -w  lorem2.txt 
+ 1270  fmt -w  lorem2.txt
+ 1271  fmt -w 5 lorem2.txt
+ 1272  fmt -w 10 lorem.txt 
+ 1273  clear
+ 1274  ls
+ 1275  clear
+ 1276  vi loremnew.txt
+ 1277  fmt -w 2 loremnew.txt
+ 1278  fmt -w 10 loremnew.txt
+ 1279  cat loremnew.txt 
+ 1280  fmt -t loremnew.txt
+ 1281  fmt -s lorem.txt 
+ 1282  clear
+ 1283  cat loremnew.txt 
+ 1284  fmt -s lorem.txt 
+ 1285  clear
+ 1286  cat loremnew.txt 
+ 1287  fmt -s loremnew.txt 
+ 1288  fmt -u loremnew.txt 
+ 1289  fmt -u loremnew.txt
+ 1290  echo *.jpeg 
+ 1291  echo *.txt
+ 1292  ls *.txt
+ 1293  clear
+ 1294  cat state.txt 
+ 1295  cut -b 1,2,3 state.txt
+ 1296  cut -b 1,2,6 state.txt
+ 1297  cat state.txt 
+ 1298  cut -c-8 loremnew.txt
+ 1299  cut -c2- loremnew.txt
+ 1300  cat loremnew.txt 
+ 1301  cut -c2- state.txt 
+ 1302  cat state.txt
+ 1303  cut -c2- state.txt 
+ 1304  cut -c-3 state.txt 
+ 1305  cut -d':' -f1 /etc/passwd
+ 1306  cat /etc/passwd
+ 1307  cut -d':' -f2 /etc/passwd
+ 1308  cat /etc/passwd
+ 1309  cut -d':' -f1 /etc/passwd
+ 1310  ,
+ 1311  cat /bin/bash
+ 1312  clear
+ 1313  cat /etc/passwd
+ 1314  grep "/bin/bash" /etc/passwd | cut -d':' -f1,6 
+ 1315  cut -d':' -f1,6 /etc/passwd
+ 1316  cut -d':' -f1,7 /etc/passwd
+ 1317  grep "/bin/bash" /etc/passwd | cut -d':' -f1,6 
+ 1318  cut -d':' -f1,7 /etc/passwd
+ 1319  cut -d'' -f1,7 /etc/passwd
+ 1320  cut -d'.' -f1,7 /etc/passwd
+ 1321  cut -d'*' -f1,7 /etc/passwd
+ 1322  vi lorem.txt
+ 1323  cut -d'.' -f1,7 lorem.txt
+ 1324  cut -d'!' -f1,7 lorem.txt
+ 1325  cut -d'!' -f1,6 lorem.txt
+ 1326  vi lorem.txt
+ 1327  cat lorem.txt
+ 1328  cut -d'/' -f1,4 lorem.txt
+ 1329  vi lorem.txt
+ 1330  cut -d'|' -f1,4 lorem.txt
+ 1331  vi lorem.txt
+ 1332  cut -d':' -f1,4 lorem.txt
+ 1333  grep "/bin/bash" /etc/passwd | cut -d'|'  -f1
+ 1334  grep "/bin/bash" /etc/passwd | cut -d'|'  -f1,4
+ 1335  vi lorem.txt
+ 1336  grep "/bin/bash" /etc/passwd | cut -d'|'  -f1,4
+ 1337  cut -d'|' -s -f1,4 lorem.txt
+ 1338  grep "/bin/bash" /etc/passwd | kes -d'|' -s -f1
+ 1339  grep "/bin/bash" /etc/passwd | cat -d'|' -s -f1
+ 1340  grep "/bin/bash" /etc/passwd | cut -d'|' -s -f1
+ 1341  grep "/bin/bash" /etc/passwd | cut -d':' -s -f1
+ 1342  cut -d':' -s -f1 lorem
+ 1343  cut -d':' -s -f1 lorem.txt 
+ 1344  cut -d'|' -s -f1 lorem.txt 
+ 1345  cut -d'|' -s -f1,2 lorem.txt 
+ 1346  vi lorem.txt
+ 1347  cut -d'|' -s -f1,2 lorem.txt 
+ 1348  cut -d'|' -s -f1,2 /etc/passwd
+ 1349  cut -d':' -s -f1,2 /etc/passwd
+ 1350  cut -d':' -s -f1,4 /etc/passwd
+ 1351  cat /etc/passwd
+ 1352  cut -d':' -s -f1,4 /etc/passwd
+ 1353  cat /etc/passwd
+ 1354  cut -d':' -s -f1,5 /etc/passwd
+ 1355  cat /etc/passwd
+ 1356  grep "/bin/bash" /etc/passwd | cut -d'|'  -f1
+ 1357  grep "/bin/bash" /etc/passwd | cut -d':' --complement -s -f7
+ 1358  grep "/bin/bash" /etc/passwd | cut -d':'  -f1
+ 1359  grep "/bin/bash" /etc/passwd | cut -d'|'  -f1
+ 1360  grep "/bin/bash" /etc/passwd | cut -d':' --complement -s -f7
+ 1361  grep "/bin/bash" /etc/passwd | cut -d':' -s -f1,6,7 --output-delimiter='#' 
+ 1362  grep "/bin/bash" /etc/passwd | cut -d':' -s -f1,6,7 --output-delimiter='\n' 
+ 1363  grep "/bin/bash" /etc/passwd | cut -d':' -s -f1,6,7 --output-delimiter=$'\n'
+ 1364  ps axu | grep python | sed 's/\s\+/ /g' | cut -d' ' -f2,11-
+ 1365  ps axu |grep python
+ 1366  ps axu | grep python | cut -d' ' -f2,11-
+ 1367  ps axu | grep python | cut -d' ' f2,11
+ 1368  ps axu | grep python | cut -d' ' -f2,11
+ 1369  ps axu | grep python | cut -d' ' -f1,2
+ 1370  ps axu |grep python
+ 1371  ps axu | grep python | cut -d' ' -f1,3
+ 1372  ps axu | grep python | cut -d' ' -f1,4
+ 1373  ps axu | grep python | cut -d' ' -f1,4-
+ 1374  ps axu | grep python | cut -d' ' -f1,4
+ 1375  ps axu | grep python | cut -d' ' -f1,5
+ 1376  ps axu | grep python | cut -d' ' -f1,7
+ 1377  ps axu |grep python
+ 1378  ps axu | grep python | cut -d' ' -f1,9
+ 1379  ps axu | grep python | cut -d' ' -f1,13
+ 1380  ps axu | grep python | cut -d' ' -f1,12
+ 1381  ps axu | grep python | cut -d' ' -f1,11
+ 1382  ps axu | grep python | cut -d' ' -f1,13
+ 1383  ps axu | grep python | cut -d' ' -f1,14
+ 1384  clear
+ 1385  echo "deliiii dddd| cut -d' ' -f1,2
+ 1386  echo "deliiii dddd dddwer"| cut -d' ' -f1,2
+ 1387  echo "deliiii dddd dddwer"| cut -d' ' -f1,3
+ 1388  echo "deliiii dddd dddwer"| cut -d' ' -f-3
+ 1389  echo "deliiii dddd dddwer"| cut -d' ' -f-2
+ 1390  docker pull vikas027/ratticdb
+ 1391  docker run --name <any_name> -d -p <host_http_port>:80 vikas027/ratticdb
+ 1392  docker run --name pwdb-1 -d -p 0.0.0.0:8118 vikas027/ratticdb
+ 1393  docker run --name pwdb-1 -d -p 8118 vikas027/ratticdb
+ 1394  netstat -tlpn
+ 1395  netstat -tlpn |grep 8118
+ 1396  docker container ls
+ 1397  docker container stop pwdb-1
+ 1398  docker container rm pwdb-1
+ 1399  docker run --name pwdb-1 -d -p 8118:80 vikas027/ratticdb
+ 1400  ls
+ 1401  clear
+ 1402  docker image ls
+ 1403  docker image inspect vikas027/ratticdb
+ 1404  clear
+ 1405  npm install shaka-packager-static
+ 1406  npm install -g npm@8.1.0
+ 1407  npm audit fix
+ 1408  npm install shaka-packager-static
+ 1409  npm run build
+ 1410  cöear
+ 1411  clear
+ 1412  ls
+ 1413  npm install shaka-packager-static
+ 1414  clear
+ 1415  docker pull google/shaka-packager
+ 1416  docker run -d -p 1935:1935 -p 8080:8080 polinux/rtmp-hsl
+ 1417  docker run -d -p 1935:1935 -p 8085:8080 polinux/rtmp-hsl
+ 1418  docker login
+ 1419  docker run -d -p 1935:1935 -p 8085:8080 polinux/rtmp-hsl
+ 1420  docker pull polinux/rtmp-hls
+ 1421  docker run -d -p 1935:1935 -p 8085:8080 polinux/rtmp-hsl
+ 1422  docker run -d -p 1935:1935 -p 8085:8080 polinux/rtmp-hls
+ 1423  netstat -tlpn
+ 1424  docker run -d --restart always      --name restreamer      -e "RS_USERNAME=admin" -e "RS_PASSWORD=datarhei"      -p 8080:8080 -v /mnt/restreamer/db:/restreamer/db \
+ 1425  docker run -d --restart always      --name restreamer      -e "RS_USERNAME=admin" -e "RS_PASSWORD=datarhei"      -p 8084:8080 -v /mnt/restreamer/db:/restreamer/db      datarhei/restreamer:latest
+ 1426  netstat -tlpn
+ 1427  docker run --detach --restart always     --name streaming-server     --hostname streaming-server     --publish 1935:1935     --publish 8080:8080     --publish 8443:8443     codeworksio/streaming-server
+ 1428  docker container ls
+ 1429  docker container ls -a
+ 1430  docker container rm 5aa05998b517
+ 1431  clear
+ 1432  docker run --detach --restart always     --name streaming-server     --hostname streaming-server     --publish 1935:1935     --publish 8089:8080     --publish 8411:8443     codeworksio/streaming-server
+ 1433  netstat -tlpn
+ 1434  docker container ls -a
+ 1435  docker container stop 2c1df4aea7e0
+ 1436  docker container rm 2c1df4aea7e0
+ 1437  docker container rm 096406e25eb3
+ 1438  docker container ls -a
+ 1439  docker run --detach --restart always     --name streaming-server     --hostname streaming-server     --publish 1935:1935     --publish 8089:8080     --publish 8411:8443     codeworksio/streaming-server
+ 1440  docker container ls
+ 1441  docker container stop 556ef5bd99b7
+ 1442  docker container rm 556ef5bd99b7
+ 1443  docker run --rm -p 1935:1935 -p 47151:80 codl/hls-stream
+ 1444  docker container ls
+ 1445  docker container ls -a
+ 1446  docker container rm 6ee8f67f2e50
+ 1447  docker container rm 2d7a1df04c5b
+ 1448  clear
+ 1449  docker run -d --name=radium -p 3000:3000 -e BASE_URL=http://10.90.0.144 zibbp/radium:latest
+ 1450  docker container ls
+ 1451  docker container stop 10f218beb1bd
+ 1452  docker container rm 10f218beb1bd
+ 1453  docker run -d --name=radium -p 3000:3000 -e BASE_URL=http://10.90.0.144 -e HLS_URL=https://powerturkeniyiler.rocketcdn.com/powerturkeniyiler/eniyiler_1080p/playlist.m3u8  zibbp/radium:latest
+ 1454  docker container ls
+ 1455  docker container stop 82987be374a9
+ 1456  docker container rm 82987be374a9
+ 1457  clear
+ 1458  docker run -d -p 1935:1935 -p 8080:8080 alqutami/rtmp-hls
+ 1459  docker container ls -al
+ 1460  docker container ls -a
+ 1461  docker container rm 6b600ea497a4
+ 1462  docker container ls -a
+ 1463  docker run -d -p 1935:1935 -p 8086:8080 alqutami/rtmp-hls
+ 1464  docker container ls -a
+ 1465  docker container stop awesome_brattain
+ 1466  docker container rm awesome_brattain
+ 1467  clear
+ 1468  docker container ls
+ 1469  cd /opt/scripts/
+ 1470  ls
+ 1471  clear
+ 1472  htop
+ 1473  clear
+ 1474  ls
+ 1475  history 
+ 1476  ls
+ 1477  history |grep token
+ 1478  vi tokencustom.php
+ 1479  ls
+ 1480  cat token3.php 
+ 1481  cat tokengen.php 
+ 1482  vi tokengen.php
+ 1483  /usr/bin/php tokengen.php
+ 1484  vi tokengen.php
+ 1485  /usr/bin/php tokengen.php
+ 1486  vi tokengen.php
+ 1487  /usr/bin/php tokengen.php
+ 1488  vi tokengen.php
+ 1489  /usr/bin/php tokengen.php
+ 1490  vi tokengen.php
+ 1491  /usr/bin/php tokengen.php
+ 1492  clear
+ 1493  vi tokengen.php
+ 1494  cd /opt/scripts/
+ 1495  ls
+ 1496  clear
+ 1497  vi casestatement.sh
+ 1498  chmod +x casestatement.sh
+ 1499  ./casestatement.sh
+ 1500  clear
+ 1501  ./casestatement.sh araba
+ 1502  ./casestatement.sh arabaa
+ 1503  ./casestatement.sh bisiklet
+ 1504  ./casestatement.sh motorsiklet
+ 1505  ./casestatement.sh motorsikleT
+ 1506  vi casestatement.sh
+ 1507  ./casestatement.sh arabaa
+ 1508  ./casestatement.sh araba
+ 1509  ./casestatement.sh Araba
+ 1510  vi casestatement.sh
+ 1511  ./casestatement.sh
+ 1512  vi casestatement.sh
+ 1513  ./casestatement.sh
+ 1514  cp casestatement.sh casestatement2.sh 
+ 1515  vi casestatement2.sh 
+ 1516  chmod +x casestatement
+ 1517  chmod +x casestatement2.sh 
+ 1518  ./casestatement2.sh
+ 1519  vi casestatement2.sh 
+ 1520  ./casestatement2.sh
+ 1521  vi casestatement2.sh 
+ 1522  ./casestatement2.sh
+ 1523  vi casestatement2.sh 
+ 1524  ./casestatement2.sh
+ 1525  cd /opt/scripts/
+ 1526  cp casestatement2.sh casestatement3.sh
+ 1527  vi casestatement3.sh
+ 1528  chmod +x casestatement3.sh
+ 1529  ./casestatement3.sh 
+ 1530  vi casestatement3.sh
+ 1531  ./casestatement3.sh 
+ 1532  ./casestatement3.sh
+ 1533  vi casestatement3.sh
+ 1534  ./casestatement3.sh
+ 1535  clear
+ 1536  vi casestatement3.sh 
+ 1537  vi diziler.sh
+ 1538  chmod +x diziler.sh
+ 1539  ./diziler.sh 
+ 1540  vi diziler.sh
+ 1541  ./diziler.sh 
+ 1542  vi diziler.sh
+ 1543  ./diziler.sh 
+ 1544  vi diziler.sh
+ 1545  ./diziler.sh 
+ 1546  vi diziler.sh
+ 1547  ./diziler.sh 
+ 1548  vi diziler.sh
+ 1549  ./diziler.sh 
+ 1550  vi diziler.sh
+ 1551  clear
+ 1552  ./diziler.sh 
+ 1553  vi diziler.sh
+ 1554  ./diziler.sh 
+ 1555  vi diziler.sh
+ 1556  ./diziler.sh 
+ 1557  vi whileloop.sh
+ 1558  chmod +x whileloop.sh
+ 1559  ./whileloop.sh 
+ 1560  vi whileloop.sh
+ 1561  ./whileloop.sh 
+ 1562  vi whileloop.sh
+ 1563  ./whileloop.sh 
+ 1564  ls
+ 1565  vi mathop.sh
+ 1566  ./whileloop.sh 1
+ 1567  clear
+ 1568  ./whileloop.sh 11
+ 1569  ./whileloop.sh 10
+ 1570  clear
+ 1571  ls
+ 1572  vi mathopfloat.sh
+ 1573  vi mathop.sh
+ 1574  vi whileloop.sh
+ 1575  ./whileloop.sh
+ 1576  vi whileloop.sh
+ 1577  ./whileloop.sh
+ 1578  vi whileloop.sh
+ 1579  ./whileloop.sh
+ 1580  vi whileloop.sh
+ 1581  ./whileloop.sh
+ 1582  clear
+ 1583  vi whileloop.sh
+ 1584  ./whileloop.sh
+ 1585  vi whileloop.sh
+ 1586  ./whileloop.sh
+ 1587  vi whileloop.sh
+ 1588  ./whileloop.sh
+ 1589  vi whileloop.sh
+ 1590  ./whileloop.sh
+ 1591  vi whileloop.sh
+ 1592  ./whileloop.sh
+ 1593  clear
+ 1594  cd /opt/scripts/
+ 1595  vim forloop.sh
+ 1596  chmod +x forloop.sh 
+ 1597  ./forloop.sh
+ 1598  cp forloop.sh forloop2.sh 
+ 1599  vi forloop2.sh 
+ 1600  chmod +x forloop2.sh 
+ 1601  ./forloop2.sh
+ 1602  vi forloop2.sh 
+ 1603  ./forloop2.sh
+ 1604  vi forloop2.sh 
+ 1605  ./forloop2.sh
+ 1606  vi forloop2.sh 
+ 1607  ./forloop2.sh
+ 1608  vi forloop2.sh 
+ 1609  ./forloop2.sh
+ 1610  vi forloop2.sh 
+ 1611  ./forloop2.sh
+ 1612  vi forloop2.sh 
+ 1613  ./forloop2.sh
+ 1614  vi forloop2.sh 
+ 1615  ./forloop2.sh
+ 1616  clear
+ 1617  ./forloop2.sh
+ 1618  vi forloop2.sh 
+ 1619  ./forloop2.sh
+ 1620  vi forloop2.sh 
+ 1621  cp forloop2.sh forloop3.sh
+ 1622  vi forloop3.sh
+ 1623  chmod +x forloop3.sh 
+ 1624  ./forloop3.sh 
+ 1625  vi forloop3.sh
+ 1626  ./forloop3.sh 
+ 1627  clear
+ 1628  vi for1.sh
+ 1629  chmod +x for1.sh 
+ 1630  ./for1.sh 
+ 1631  touch 1.html
+ 1632  ls
+ 1633  vi for2.sh
+ 1634  chmod +x for2.sh 
+ 1635  ./for2.sh
+ 1636  ./for2.sh 1.html
+ 1637  ls
+ 1638  ./for2.sh
+ 1639  ./for2.sh 1.html
+ 1640  rm for2.sh 
+ 1641  clear
+ 1642  ls
+ 1643  vi for2.sh
+ 1644  rm 1.html 
+ 1645  touch 1.jpeg
+ 1646  chmod +x for2.sh 
+ 1647  ./for2.sh 
+ 1648  ls
+ 1649  touch abuzer.jpeg
+ 1650  ls
+ 1651  ./for2.sh 
+ 1652  ls
+ 1653  vi for2.sh 
+ 1654  ls
+ 1655  touch muhittin.php
+ 1656  ls
+ 1657  mv -- "$file" "${file%.php}.ini"
+ 1658  mv -- $file ${file%.php}.ini
+ 1659  clear
+ 1660  ls
+ 1661  mv -- muhittin.php ${muhittin.php%.php}.ini
+ 1662  ls
+ 1663  mv -- muhittin.php ${muhittin%.php}.ini
+ 1664  ls
+ 1665  ls -al
+ 1666  clear
+ 1667  rm .ini
+ 1668  vi ab.php
+ 1669  ls
+ 1670  mv -- ab.php ${muhittin%.php}ab.ini
+ 1671  ls
+ 1672  for name in joey suzy bobby; do echo first $name;echo second 
+ 1673  vi for3.sh
+ 1674  chmod +x for3.sh 
+ 1675  ./for3.sh 
+ 1676  vi for3.sh
+ 1677  ./for3.sh 
+ 1678  vi for3.sh
+ 1679  ./for3.sh 
+ 1680  vi for3.sh
+ 1681  ./for3.sh 
+ 1682  vi for3.sh
+ 1683  ./for3.sh 
+ 1684  vi for3.sh
+ 1685  ./for3.sh 
+ 1686  vi for3.sh
+ 1687  ./for3.sh 
+ 1688  vi for3.sh
+ 1689  clear
+ 1690  cd /opt/scripts/
+ 1691  clear
+ 1692  ls
+ 1693  clear
+ 1694  vi selectloop.py
+ 1695  chmod +x selectloop.py 
+ 1696  ./selectloop.py 
+ 1697  clear
+ 1698  cp selectloop.py selectloop2.py 
+ 1699  vi selectloop2.py 
+ 1700  ./selectloop2.py 
+ 1701  vi selectloop2.py 
+ 1702  ./selectloop2.py 
+ 1703  vi selectloop2.py 
+ 1704  ./selectloop2.py 
+ 1705  vi selectloop2.py 
+ 1706  ./selectloop2.py 
+ 1707  vi selectloop2.py 
+ 1708  ./selectloop2.py 
+ 1709  clear
+ 1710  vi breakandcontinue.sh
+ 1711  chmod +x breakandcontinue.sh
+ 1712  ./breakandcontinue.sh 
+ 1713  vi breakandcontinue.sh
+ 1714  ./breakandcontinue.sh 
+ 1715  vi breakandcontinue.sh
+ 1716  ./breakandcontinue.sh 
+ 1717  clear
+ 1718  ./breakandcontinue.sh 
+ 1719  clear
+ 1720  ./breakandcontinue.sh 
+ 1721  vi breakandcontinue.sh
+ 1722  ./breakandcontinue.sh 
+ 1723  vi breakandcontinue.sh
+ 1724  ./breakandcontinue.sh 
+ 1725  vi breakandcontinue.sh
+ 1726  ./breakandcontinue.sh 
+ 1727  clear
+ 1728  ./breakandcontinue.sh 
+ 1729  vi breakandcontinue.sh
+ 1730  cp breakandcontinue.sh breakandcontinue2.sh 
+ 1731  vi breakandcontinue2.sh 
+ 1732  ./breakandcontinue2.sh 
+ 1733  clear
+ 1734  cp breakandcontinue2.sh breakandcontinue3.sh
+ 1735  vi breakandcontinue3.sh
+ 1736  ./breakandcontinue3.sh 
+ 1737  vi breakandcontinue3.sh
+ 1738  ./breakandcontinue3.sh 
+ 1739  vi until.sh
+ 1740  chmod +x until.sh 
+ 1741  ./until.sh 
+ 1742  chmod +x until.sh 
+ 1743  vi until.sh
+ 1744  clear
+ 1745  vi fonksiyonlar.sh
+ 1746  cd /opt/scripts/
+ 1747  ls
+ 1748  clear
+ 1749  vi function1.sh
+ 1750  chmod +x function1.sh
+ 1751  ./function1.sh 
+ 1752  cp function1.sh function2.sh 
+ 1753  vi function2.sh 
+ 1754  ./function2.sh 
+ 1755  vi function2.sh 
+ 1756  ./function2.sh 
+ 1757  vi function2.sh 
+ 1758  ./function2.sh 
+ 1759  vi function2.sh 
+ 1760  ./function2.sh 
+ 1761  cp function1.sh function3.sh
+ 1762  vi function3.sh 
+ 1763  ./function3.sh 
+ 1764  clear
+ 1765  ./function3.sh 
+ 1766  1000
+ 1767  ./function3.sh 
+ 1768  clear
+ 1769  ./function3.sh 
+ 1770  cp function3.sh function4.sh
+ 1771  vi function4.sh 
+ 1772  ./function4.sh 
+ 1773  vi function4.sh 
+ 1774  ./function4.sh 
+ 1775  vi function4.sh 
+ 1776  ./function4.sh 
+ 1777  vi function4.sh 
+ 1778  ./function4.sh 
+ 1779  cp function4.sh function5.sh
+ 1780  vi function5.sh 
+ 1781  ./function5.sh 
+ 1782  vi function5.sh 
+ 1783  ./function5.sh 
+ 1784  vi function5.sh 
+ 1785  ./function5.sh 
+ 1786  ls
+ 1787  clear
+ 1788  ls -al
+ 1789  clear
+ 1790  vi function5.sh 
+ 1791  ./function5.sh 
+ 1792  vi function5.sh 
+ 1793  ./function5.sh 
+ 1794  vi function5.sh 
+ 1795  ./function5.sh 
+ 1796  clear
+ 1797  netstat -tlpn
+ 1798  clear
+ 1799  cd /opt/scripts/
+ 1800  ls
+ 1801  clear
+ 1802  vi argumanlar.sh
+ 1803  vim uygulama_1.sh
+ 1804  chmod +x uygulama_1.sh 
+ 1805  ./uygulama_1.sh 
+ 1806  vim uygulama_1.sh
+ 1807  clear
+ 1808  vim uygulama_1.sh a b c d
+ 1809  ./uygulama_1.sh a b c d
+ 1810  clear
+ 1811  ./uygulama_1.sh a b c d
+ 1812  vim uygulama_1.sh a b c d
+ 1813  ./uygulama_1.sh a b c d
+ 1814  vim uygulama_1.sh a b c d
+ 1815  ./uygulama_1.sh a b c d
+ 1816  clear
+ 1817  vim uygulama_2.sh
+ 1818  chmod +x uygulama_2.sh
+ 1819  ./uygulama_2.sh /etc/
+ 1820  clear
+ 1821  ./uygulama_2.sh /etc/nginx/
+ 1822  ./uygulama_2.sh /var/log/
+ 1823  clear
+ 1824  ./uygulama_2.sh /var/log/zabbix
+ 1825  clear
+ 1826  ./uygulama_2.sh /etc/nginx/
+ 1827  vim uygulama_2.sh 
+ 1828  clear
+ 1829  vim uygulama_3.sh
+ 1830  chmod +x uygulama_3.sh 
+ 1831  clear
+ 1832  ./uygulama_3.sh
+ 1833  vim uygulama_2.sh 
+ 1834  vim uygulama_3.sh 
+ 1835  ./uygulama_3.sh
+ 1836  vim uygulama_2.sh 
+ 1837  vi uygulama_3.sh 
+ 1838  ./uygulama_3.sh
+ 1839  ./uygulama_3.sh uygulama_1.sh 
+ 1840  ./uygulama_3.sh /etc/
+ 1841  ls
+ 1842  ./uygulama_3.sh files
+ 1843  clear
+ 1844  ./uygulama_3.sh files
+ 1845  ls
+ 1846  ./uygulama_3.sh until.sh
+ 1847  ./uygulama_3.sh files
+ 1848  history 
+ 1849  ls
+ 1850  history |grep token
+ 1851  vi tokengen.php
+ 1852  /usr/bin/php tokengen.php
+ 1853  vi tokengen.php
+ 1854  /usr/bin/php tokengen.php
+ 1855  vi tokengen.php
+ 1856  /usr/bin/php tokengen.php
+ 1857  cat tokengen2.php 
+ 1858  vim tokengen.php
+ 1859  cat tokengen.php
+ 1860  vi /etc/nginx/nginx.conf
+ 1861  systemctl reload nginx
+ 1862  vi tokken.php
+ 1863  cp tokengen.php tokengen2.php
+ 1864  vi tokengen2.php 
+ 1865  /usr/bin/php tokengen2.php
+ 1866  curl -I http://10.90.0.144/login.html?md5=N6irc1UfAJ_qgTkzQoRQwg&expires=1635879473
+ 1867  netstat -tlpn
+ 1868  /usr/bin/php tokengen2.php
+ 1869  vi tokengen2.php 
+ 1870  /usr/bin/php tokengen2.php
+ 1871  clear
+ 1872  curl -I http://10.90.0.144:8080/login.html?md5=IkwaZDGCSfvEzOK1Izp3vQ&expires=1635879520
+ 1873  vi tokengen2.php 
+ 1874  /usr/bin/php tokengen2.php
+ 1875  curl -I http://10.90.0.144:8080/login.html?md5=zbL2WxgP6qQwy_SfVAHrdg&expires=1635879596
+ 1876  vi tokengen2.php 
+ 1877  /usr/bin/php tokengen2.php
+ 1878  vi tokengen2.php 
+ 1879  /usr/bin/php tokengen2.php
+ 1880  tail -f /var/log/nginx/access.log 
+ 1881  cat /etc/nginx/nginx.conf
+ 1882  vi tokengen2.php 
+ 1883  /usr/bin/php tokengen2.php
+ 1884  vi tokengen2.php 
+ 1885  /usr/bin/php tokengen2.php
+ 1886  vi tokengen2.php 
+ 1887  /usr/bin/php tokengen2.php
+ 1888  vi tokengen2.php 
+ 1889  vi tokengen.php 
+ 1890  clear
+ 1891  /usr/bin/php tokengen2.php
+ 1892  vi tokengen.php 
+ 1893  vi tokengen2.php 
+ 1894  /usr/bin/php tokengen2.php
+ 1895  vi tokengen
+ 1896  vi tokengen2.php 
+ 1897  ls
+ 1898  find * -type f -mtime +1
+ 1899  find * -type f -mtime +3
+ 1900  find * -type f -mtime +50
+ 1901  find * -type f -mtime +110
+ 1902  find . -type f -mtime +110
+ 1903  ls
+ 1904  find nginx-1.20.0/ -type f -mtime +110
+ 1905  find nginx-1.20.0/ -type f -mtime +11
+ 1906  find nginx-1.20.0/ -type f -mtime +1
+ 1907  clear
+ 1908  find /var/log -name "*.log" -type f -mtime +30 
+ 1909  find /var/log -name "*.log" -type f -mtime +3
+ 1910  find /var/log -name "*.log" -type f -mtime +40
+ 1911  find /var/log -name "*.gz" -type f -mtime +40
+ 1912  clear
+ 1913  find /var/log -name "*.gz" -type f -mtime +40
+ 1914  find /var/log -name "*.gz" -type f -mtime +40 -delete
+ 1915  find /var/log -name "*.gz" -type f -mtime +40
+ 1916  ls
+ 1917  find /home/onur -name "*.txt" -type f -mtime +30 
+ 1918  find /home/onur -name "*.txt" -type f -mtime +1000
+ 1919  find /home/onur -name "*.txt" -type f -mtime +999999
+ 1920  ls
+ 1921  find /home/onur -name "*.php" -type f -mtime +999999
+ 1922  find /home/onur -name "*.php" -type f -mtime +90
+ 1923  find /home/onur -name "*.php" -type f -mtime +40
+ 1924  find /home/onur -name "*.php" -type f -mtime +10
+ 1925  clear
+ 1926  vim kt.txt
+ 1927  cat kt.txt 
+ 1928  uniq kt.txt
+ 1929  uniq -c kt.txt
+ 1930  uniq -d kt.txt 
+ 1931  uniq -u 4. -u seçeneğinin kullanılması : Yalnızca benzersiz satırları yazdırır. 
+ 1932  clear
+ 1933  uniq -u kt.txt 
+ 1934  vi f1.txt
+ 1935  cat f1.txt 
+ 1936  uniq -f 2 f1.txt
+ 1937  uniq -f 3 f1.txt
+ 1938  uniq -f 4 f1.txt
+ 1939  uniq -f 1 f1.txt
+ 1940  clear
+ 1941  vim f2.txt
+ 1942  uniq -s 3 f2.txt
+ 1943  vim file.txt
+ 1944  sort file.txt 
+ 1945  vim file.txt
+ 1946  sort file.txt 
+ 1947  clear
+ 1948  sort file.txt
+ 1949  clear
+ 1950  vim ab.txy
+ 1951  vim ab.txt
+ 1952  sort ab.txt
+ 1953  claer
+ 1954  clear
+ 1955  cat ab.txt 
+ 1956  sort ab.txt 
+ 1957  vi aaa.txy
+ 1958  vi aaa.txt
+ 1959  clear
+ 1960  cat aaa.txt 
+ 1961  sort -k 2n aaa.txt 
+ 1962  vi car.txt
+ 1963  sort -u car.txt 
+ 1964  clar
+ 1965  clear
+ 1966  cat car.txt 
+ 1967  sort -u car.txt 
+ 1968  claer
+ 1969  clear
+ 1970  vi geek.txt
+ 1971  cat geek.txt
+ 1972  sed 's/unix/linux/' geekfile.txt
+ 1973  sed 's/unix/linux/' geek.txt
+ 1974  cat geek.txt 
+ 1975  clear
+ 1976  cat geek.txt 
+ 1977  sed 
+ 1978  clear
+ 1979  ls
+ 1980  vim lorem.txt
+ 1981  vim lo.txt
+ 1982  clear
+ 1983  cat lo.txt
+ 1984  sed 's/Demand/Onur/g' lo.txt > lo2.txt
+ 1985  cat lo2.txt 
+ 1986  vi lo.txt 
+ 1987  cat lo.txt 
+ 1988  sed 's/onurbolatoglu.com/onurbolatoglu.com.tr/g' lo.txt > lo3.txt
+ 1989  cat lo3.txt 
+ 1990  sed 's/\(.*\)away/\1out/' lo3.txt 
+ 1991  git clone https://github.com/aristocratos/bashtop
+ 1992  cd bashtop/
+ 1993  bash bashtop
+ 1994  free -m
+ 1995  bash bashtop
+ 1996  sudo tail -f /var/log/php7.2-fpm.log
+ 1997  glances
+ 1998  apt  install glances
+ 1999  glances
+ 2000  clear
+ 2001  cd /opt/scripts/
+ 2002  ls
+ 2003  clear
+ 2004  ls
+ 2005  date ; hostname
+ 2006  date;hostname
+ 2007  date;who
+ 2008  date;who;cal
+ 2009  clear
+ 2010  ls -l
+ 2011  ls *.sh
+ 2012  ls -l /bin/??
+ 2013  clear
+ 2014  ls -l /bin/???
+ 2015  clear
+ 2016  top
+ 2017  clear
+ 2018  ls -l /etc/[de]
+ 2019  ls -l /etc/[de]*
+ 2020  clear
+ 2021  ls -l /etc/[d]*
+ 2022  ls -l /etc/[de]*
+ 2023  cler
+ 2024  clear
+ 2025  ls -l /etc/[de]*
+ 2026  clear
+ 2027  ls -l [^u] 
+ 2028  ls -l [^u]* 
+ 2029  ls
+ 2030  ls -l [^f]* 
+ 2031  dasdsa;date
+ 2032  dasdsa&&date
+ 2033  ls -l [^u]* 
+ 2034  ls -l [^n]* 
+ 2035  ls -l [^s]* 
+ 2036  echo {ahmet,ali,veli}
+ 2037  clear
+ 2038  echo {ahmet,ali,veli}
+ 2039  echo Merhaba,{ahmet,ali,veli}
+ 2040  echo Merhaba,{\ahmet,ali,veli}
+ 2041  echo Merhaba,{\nahmet,ali,veli}
+ 2042  echo Merhaba,{\n ahmet,ali,veli}
+ 2043  echo Merhaba,{ahmet,ali,veli}
+ 2044  ls
+ 2045  cd file
+ 2046  cd files
+ 2047  ls
+ 2048  touch file{1..20}.php
+ 2049  ls
+ 2050  touch file*.php{,fi.txt}
+ 2051  ls
+ 2052  touch file1.php{,fi.txt}
+ 2053  ls
+ 2054  rm *.txt
+ 2055  ls
+ 2056  clear
+ 2057  ls
+ 2058  cd ..
+ 2059  ls
+ 2060  clear
+ 2061  deger='date'
+ 2062  echo $deger
+ 2063  deger=`date`
+ 2064  echo $deger
+ 2065  deger=`uname -n`
+ 2066  echo $deger
+ 2067  deger2='date'
+ 2068  echo $deger2
+ 2069  deger2='Sistemin adı `hostname`'
+ 2070  echo $deger2
+ 2071  deger2="Sistemin adı `hostname`"
+ 2072  echo $deger2
+ 2073  echo "Merhaba $LOGNAME Bugünün tarihi:`date`"
+ 2074  echo $LOGNAME
+ 2075  echo "Merhaba $LOGNAME, Bugünün tarihi:`date`"
+ 2076  clear
+ 2077  vim redirection.sh
+ 2078  cat forloop2.sh 
+ 2079  ./forloop2.sh 
+ 2080  clear
+ 2081  history >1.txt
