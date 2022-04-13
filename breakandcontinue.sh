@@ -9,3 +9,5 @@ do
    echo "$i"
 
 done
+
+https://stackoverflow.com/a/2315891/11769736
